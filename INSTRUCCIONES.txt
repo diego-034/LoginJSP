@@ -1,0 +1,14 @@
+____________________________________________________
+****************************************************
+-------------------- REQUISITOS --------------------
+NETBEANS >= 8.1
+XAMPP o WAMP
+____________________________________________________
+****************************************************
+------------------- INSTRUCCIONES ------------------
+
+1.Crear la base de datos qux, el script esta en 
+    web/script/qux.sql
+2.Verificar puertos y detalles de conexión en la 
+    clase Conexion en Models
+3.Verificar las Librerias de Gson y mysql
