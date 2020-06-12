@@ -13,8 +13,7 @@
     Users user = new Users();
     if(misession.getAttribute("user") == null){
         String host = InetAddress.getLocalHost().getHostName();
-
-        response.sendRedirect("http://localhost:8080/EjerciciosEdwin/");
+        response.sendRedirect("http://localhost:8080/LoginJSP/");
     }else{
         user = (Users) misession.getAttribute("user");
     }

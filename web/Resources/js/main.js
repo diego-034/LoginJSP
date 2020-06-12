@@ -19,7 +19,7 @@ function login(){
         success: function(response) {
             if (response != false) {
                 alert("Inició sesión con exito");
-                location.href=location.protocol + '//' + location.host + "/EjerciciosEdwin/Screens/Home.jsp";
+                location.href= location.protocol + '//' + location.host + "/LoginJSP/Screens/Home.jsp";
             } else {
                 alert("Ocurrio un error");
             }
